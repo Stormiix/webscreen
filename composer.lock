@@ -1,0 +1,70 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "cf13547eb9736089ae00eb87c006e4c8",
+    "content-hash": "6ede10909e691f10b94676203798a16a",
+    "packages": [
+        {
+            "name": "microweber/screen",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/microweber/screen.git",
+                "reference": "c7f0c2e46ea07d9e8ca2e9ee71065b9171d9bf8e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/microweber/screen/zipball/c7f0c2e46ea07d9e8ca2e9ee71065b9171d9bf8e",
+                "reference": "c7f0c2e46ea07d9e8ca2e9ee71065b9171d9bf8e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "symfony/var-dumper": "~3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Screen\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Peter Ivanov",
+                    "email": "peter@microweber.com",
+                    "homepage": "http://microweber.com"
+                },
+                {
+                    "name": "André Filipe",
+                    "email": "andre.r.flip@gmail.com",
+                    "homepage": "http://masnathan.com"
+                }
+            ],
+            "description": "A PHP Class to interact with PhantomJs and capture screenshot of a webpage",
+            "keywords": [
+                "capture",
+                "phantomjs",
+                "print-screen",
+                "screen"
+            ],
+            "time": "2016-07-28 15:21:08"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

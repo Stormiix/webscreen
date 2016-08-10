@@ -1,0 +1,27 @@
+$main: ("base": #247BA0, "green": #70C1B3, "sea": #B2DBBF, "yellow": #F3FFBD);
+$secondary: ("base": #FF1654);
+$colors: ("main": $main, "secondary": $secondary);
+
+// Color Classes
+@each $color_name, $color in $colors {
+    @each $color_type, $color_value in $color {
+        @if $color_type == "base" {
+            .#{$color_name} {
+                background-color: $color_value !important;
+            }
+
+            .#{$color_name}-text {
+                color: $color_value !important;
+            }
+        }
+        @else {
+            .#{$color_name}-#{$color_type} {
+                background-color: $color_value !important;
+            }
+
+            .#{$color_name}-#{$color_type}-text {
+                color: $color_value !important;
+            }
+        }
+    }
+}
